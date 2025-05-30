@@ -36,12 +36,6 @@ This project was built as part of the Time Series Analysis capstone in collabora
 
 ---
 
-## 📂 Dataset
-Historical stock prices (Jan 2020 - Dec 2024) fetched using the `yfinance` Python library for 10 NSE-listed stocks:  
-```python
-import yfinance as yf
-data = yf.download("RELIANCE.NS TCS.NS INFY.NS HDFCBANK.NS", start="2020-01-01", end="2024-12-31")
-
 ## 📚 Methodology & Models
 
 The following models and methods were used:
@@ -146,3 +140,10 @@ Key Insight: **LSTM outperformed** others due to its ability to capture non-line
 - Incorporate macroeconomic sentiment data
 
 ---
+
+## 💻 How to Run
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/stock-price-tsa.git
+   cd stock-price-tsa
